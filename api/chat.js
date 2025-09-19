@@ -5,9 +5,9 @@ import { fetch } from 'undici'; // Vercel environment uses undici/fetch
 // 确保你在 Vercel 的环境变量中设置了这些密钥！
 const MEMOBASE_API_KEY = process.env.MEMOBASE_API_KEY;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const OPENAI_BASE_URL = process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1';
+const OPENAI_BASE_URL = process.env.OPENAI_BASE_URL || 'https://free.v36.cm/v1';
 const MEMOBASE_PROJECT_URL = process.env.MEMOBASE_PROJECT_URL || 'https://api.memobase.dev';
-const OPENAI_MODEL = 'gpt-3.5-turbo';
+const OPENAI_MODEL = 'gpt-4o-mini';
 
 // --- MemoBase 辅助函数 (替换 Python SDK 逻辑) ---
 
